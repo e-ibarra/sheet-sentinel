@@ -1,0 +1,13 @@
+{
+  "name": "sheet-sentinel",
+  "version": "1.0.0",
+  "description": "No-code data validation for Google Sheets: write rules in a tab, get flagged cells, an Issues report and live checks as people type.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "push": "clasp push"
+  },
+  "keywords": ["google-sheets", "apps-script", "data-validation", "data-quality", "no-code"],
+  "engines": { "node": ">=18" }
+}
